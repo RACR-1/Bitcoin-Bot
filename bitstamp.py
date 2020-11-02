@@ -23,12 +23,11 @@ def ao_receber_mensagem(ws, mensagem):
     message = json.loads(mensagem)
     price = message['data']['price']
     print(price)
-    if price > 9000:
-        vender()
-    elif price < 8100:
-        comprar()
-    else:
-        print('Aguardando')
+    
+    if price < 101:
+        print('Nossa, ta muito baixo o preço')
+    
+    
 def comprar():    
     pass
     
