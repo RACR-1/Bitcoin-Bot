@@ -52,4 +52,8 @@ if __name__ == '__main__':
                                 on_message=ao_receber_mensagem,
                                 on_error=erro)
     ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE})
+<<<<<<< HEAD
     #funcionalidade_x
+=======
+    #create1
+>>>>>>> master
