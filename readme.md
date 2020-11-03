@@ -1,4 +1,3 @@
 #Bitcoinbot
 
-esse é um aplicativo criado pelo curso de python profissional da solyd
-curso de 15 horas...
+esse é um aplicativo criado pelo curso de python profissional da solyd, me sinto o mr robot hackeado a Evil-corp.
