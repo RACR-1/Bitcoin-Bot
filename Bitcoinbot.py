@@ -41,7 +41,7 @@ def comprar(quantidade):
     trading_client = cliente()
     trading_client.buy_market_order(quantidade)
 
-def vender():
+def vender(quantidade):
     trading_client = cliente()
     trading_client.sell_market_order(quantidade)
     
@@ -52,4 +52,4 @@ if __name__ == '__main__':
                                 on_message=ao_receber_mensagem,
                                 on_error=erro)
     ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE})
-    #funcionalidade_x
+#master
